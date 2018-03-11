@@ -1,9 +1,17 @@
-.sideMenu{
+.sideMenu {
   width: 5.104169%;
-  float: left;
   position: fixed;
   height: 100%;
-  background-color: blue;
   display: block;
+}
+
+.homeLogo {
+  height: 14.722%;
+  background: url("../../assets/logoSideMenu.jpg") no-repeat center center;
+}
+
+.itemSideMenu {
+  height: 6.9444%;
+  background: url("../../assets/tmpSideMenu.jpg") no-repeat center center;
 }
 

@@ -1,4 +1,11 @@
 .content {
   background-color: aqua;
+  position: relative;
+  left:5.104169%;
+  width: 94.895831%;
+}
+
+.page {
   width: 100%;
 }
+
