@@ -1,0 +1,14 @@
+.topPage {
+    text-align: center;
+    /*background: url("image") no-repeat center center;*/
+    height: 100vh;
+}
+
+.bluePart {
+  height: 16.078%;
+  background-color: #3462E0;
+}
+
+.whitePart {
+  height: 83.922%;
+}
