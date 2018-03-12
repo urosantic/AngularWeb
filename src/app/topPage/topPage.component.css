@@ -13,11 +13,45 @@
   height: 83.922%;
 }
 
-.resume {
+img {
+    margin-top: 28.42vh;
+    margin-bottom: 0;
+}
+
+.btn {
+  color: white;
+  text-align: center;
+}
+
+.whitePart p {
+  letter-spacing: 2.5px;
+}
+
+#resume {
   position: absolute;
   width: 7.562%;
   height: 3.33%;
-  border-radius: 13px;
+  border-radius: 23px;
   left: 90.15%;
   top: 4%;
+  background-color: #3462E0;
+  font-size: 16px;
+}
+
+#directorBtn {
+  height: 4.461%;
+  width: 18%;
+  background-color: #3462E0;
+  border-radius: 24px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.circle {
+  border: 2px solid white;
+  border-radius: 50% ;
+  height: 30px ;
+  width: 30px;
+  color: white;
+  float: right;
 }
