@@ -14,8 +14,10 @@
 }
 
 .resume {
-  position: relative;
+  position: absolute;
   width: 7.562%;
   height: 3.33%;
   border-radius: 13px;
+  left: 90.15%;
+  top: 4%;
 }
