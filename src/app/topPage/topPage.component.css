@@ -12,3 +12,10 @@
 .whitePart {
   height: 83.922%;
 }
+
+.resume {
+  position: relative;
+  width: 7.562%;
+  height: 3.33%;
+  border-radius: 13px;
+}
