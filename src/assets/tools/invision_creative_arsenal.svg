@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="490 2635 70.574 71.566">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dc395f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_36);
+      }
+    </style>
+    <filter id="Rectangle_36" x="490" y="2635" width="70.574" height="71.566" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_112" data-name="Group 112" transform="translate(-711 585)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 711, -585)">
+      <rect id="Rectangle_36-2" data-name="Rectangle 36" class="cls-1" width="52.574" height="53.566" transform="translate(499 2641)"/>
+    </g>
+    <g id="invision" transform="translate(1213.968 2060.96)">
+      <path id="Path_396" data-name="Path 396" class="cls-1" d="M39.69,0H3.957A3.957,3.957,0,0,0,0,3.957V39.69a3.957,3.957,0,0,0,3.957,3.957H39.69a3.957,3.957,0,0,0,3.957-3.957V3.957A3.957,3.957,0,0,0,39.69,0"/>
+      <path id="Path_397" data-name="Path 397" class="cls-2" d="M53.316,54.982a2.627,2.627,0,1,0-2.666-2.628,2.636,2.636,0,0,0,2.666,2.628M47.788,69.051a9.024,9.024,0,0,0-.235,1.974c0,2.314,1.255,3.85,3.921,3.85,2.211,0,4-1.313,5.295-3.434L55.98,74.6h4.391l2.51-10.066c.627-2.549,1.843-3.871,3.686-3.871a2.194,2.194,0,0,1,2.352,2.392,4.7,4.7,0,0,1-.2,1.412L67.429,69.1a6.954,6.954,0,0,0-.274,1.96c0,2.2,1.294,3.8,4,3.8,2.313,0,4.156-1.489,5.176-5.058L74.6,69.137c-.863,2.39-1.608,2.823-2.2,2.823s-.9-.392-.9-1.176a5.2,5.2,0,0,1,.2-1.216l1.255-4.508a9.941,9.941,0,0,0,.431-2.859c0-3.372-2.039-5.132-4.509-5.132-2.313,0-4.666,2.087-5.842,4.283L63.9,57.41H57.2l-.941,3.472h3.137L57.46,68.616c-1.517,3.372-4.3,3.427-4.653,3.348-.574-.13-.941-.348-.941-1.094a7.394,7.394,0,0,1,.275-1.794L55.081,57.41h-7.45l-.941,3.472h3.1l-2,8.169" transform="translate(-38.73 -41.25)"/>
+    </g>
+  </g>
+</svg>

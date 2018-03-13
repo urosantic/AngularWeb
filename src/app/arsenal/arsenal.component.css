@@ -1,0 +1,10 @@
+.arsenaMain {
+  height: 172px;
+  background-color: white;
+  display: inline-list-item;
+}
+
+.arsenaMain .tools {
+  height: 53.61px;
+  width: 52.75px;
+}

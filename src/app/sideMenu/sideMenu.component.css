@@ -6,14 +6,33 @@
 }
 
 .homeLogo {
-  height: 14.722%;
-  background: url("../../assets/logoSideMenu.jpg") no-repeat center center;
+  height: 12.6vh;
+  background: url("../../assets/sideMenu/Logo.svg") no-repeat center center;
   background-size: 50% 50%;
 }
 
 .itemSideMenu {
   height: 6.9444%;
   background: url("../../assets/tmpSideMenu.jpg") no-repeat center center;
+}
+
+#services {
+  background: url("../../assets/sideMenu/menu_services.svg") no-repeat center center;
+  background-size: 50% 50%;
+  background-color: #F0F0F0;
+}
+
+#work {
+   background: url("../../assets/sideMenu/work_icon.svg") no-repeat center center;
+   background-size: 50% 50%;
+ }
+
+#clients {
+  background: url("../../assets/sideMenu/menu_clients.svg") no-repeat center center;
   background-size: 50% 50%;
 }
 
+#contact {
+  background: url("../../assets/sideMenu/menu_contact.svg") no-repeat center center;
+  background-size: 50% 50%;
+}

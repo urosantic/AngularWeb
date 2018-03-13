@@ -1,0 +1,6 @@
+.main {
+  height: 900px;
+  background: url("../../assets/heros/logo_background.svg") no-repeat center center;
+  background-color: #EFEFEF;
+  background-size: 338px;
+}
