@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="198 2351 597.757 50.589">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3462e0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 12px;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #213671;
+      }
+
+      .cls-5 {
+        font-size: 11px;
+        letter-spacing: 0.09em;
+      }
+    </style>
+  </defs>
+  <g id="Group_100" data-name="Group 100" transform="translate(0 -2031)">
+    <g id="Group_98" data-name="Group 98" transform="translate(197.5 4381.4)">
+      <path id="Path_385" data-name="Path 385" class="cls-1" d="M410.466,26.364H15.893C7.819,26.364,1.5,20.552,1.5,13.482h0C1.5,6.256,7.994.6,15.893.6h394.4c8.074,0,14.393,5.813,14.393,12.882h0C424.858,20.552,418.364,26.364,410.466,26.364Z" transform="translate(173.571)"/>
+      <text id="Sold_to_McKesson_Pharmaceuticals_for_3M_in_2015" data-name="Sold to McKesson Pharmaceuticals for $3M in 2015" class="cls-2" transform="translate(242.951 17.631)"><tspan x="0" y="0">Sold to McKesson Pharmaceuticals for </tspan><tspan class="cls-3" y="0">$3M </tspan><tspan y="0">in 2015</tspan></text>
+      <path id="Path_386" data-name="Path 386" class="cls-4" d="M187.852,26.364H15.173C6.942,26.364.5,20.552.5,13.482h0C.5,6.256,7.121.6,15.173.6H187.852c8.231,0,14.673,5.813,14.673,12.882h0C202.7,20.552,196.083,26.364,187.852,26.364Z"/>
+      <text id="Seed_Round_650k_MVP" data-name="Seed Round $650k, MVP" class="cls-2" transform="translate(25.308 17.631)"><tspan x="0" y="0">Seed Round </tspan><tspan class="cls-3" y="0">$650k</tspan><tspan y="0">, MVP</tspan></text>
+      <text id="INVESTMENT_TO_DATE" data-name="INVESTMENT TO DATE" class="cls-5" transform="translate(7.336 48.189)"><tspan x="0" y="0">INVESTMENT TO DATE</tspan></text>
+    </g>
+  </g>
+</svg>

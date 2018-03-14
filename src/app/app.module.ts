@@ -6,6 +6,7 @@ import {SideMenuComponent} from "./sideMenu/sideMenu.component";
 import {TopPageComponent} from "./topPage/topPage.component";
 import {ServicesComponent} from "./services/services.component";
 import {ArsenalComponent} from "./arsenal/arsenal.component";
+import {RxstoryComponent} from "./rxStory/rxstory.component";
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {ArsenalComponent} from "./arsenal/arsenal.component";
     SideMenuComponent,
     TopPageComponent,
     ServicesComponent,
-    ArsenalComponent
+    ArsenalComponent,
+    RxstoryComponent
   ],
   imports: [
     BrowserModule

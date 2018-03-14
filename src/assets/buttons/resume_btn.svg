@@ -1,0 +1,45 @@
+<svg id="Group_163" data-name="Group 163" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1722.806 37 163.194 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7c56d1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: Montserrat-Regular, Montserrat;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_7);
+      }
+    </style>
+    <filter id="Rectangle_7" x="1722.806" y="37" width="163.194" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_129" data-name="Group 129" transform="translate(731.806 -148)">
+    <g id="Group_39" data-name="Group 39" transform="translate(1000 191)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -1731.81, -43)">
+        <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-1" width="145.194" height="36" rx="18" transform="translate(1731.81 43)"/>
+      </g>
+      <text id="_RESUME" data-name=" RESUME" class="cls-2" transform="translate(36.557 9)"><tspan x="3.984" y="15" xml:space="preserve"> RESUME</tspan></text>
+    </g>
+  </g>
+  <g id="Group_130" data-name="Group 130" transform="translate(6.239 -0.855)">
+    <path id="Path_424" data-name="Path 424" class="cls-3" d="M1742.335,129.568H1737v15.6h17.54v-15.6h-4.949" transform="translate(8.259 -74.63)"/>
+    <path id="Path_425" data-name="Path 425" class="cls-3" d="M1752.295,49.689v16" transform="translate(1.737 1.136)"/>
+    <path id="Path_426" data-name="Path 426" class="cls-3" d="M1774.2,113l-5.033,5.268L1763.821,113" transform="translate(-15.066 -51.443)"/>
+  </g>
+</svg>

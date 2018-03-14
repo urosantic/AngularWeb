@@ -1,59 +1,39 @@
 .topPage {
     text-align: center;
     background: url(../../assets/heros/heero_image_hp.jpg) no-repeat center center;
-    height: 903px;
+    height: 1076px;
     background-size: cover;
 }
 
 .bluePart {
   height: 173px;
   background-color: #3462E0;
+  bottom: 0;
 }
 
 .whitePart {
   height: 83.922%;
 }
 
-img {
+#logo{
     margin-top: 28.42vh;
     margin-bottom: 0;
-    height: 6.3vh;
-}
-
-.btn {
-  color: white;
-  text-align: center;
+    height: 67.71px;
 }
 
 .whitePart p {
-  letter-spacing: 2.5px;
+  letter-spacing: 0.15vw;
 }
 
 #resume {
   position: absolute;
-  width: 7.562%;
-  height: 3.33%;
-  border-radius: 23px;
-  left: 90.15%;
-  top: 4%;
-  background-color: #3462E0;
-  font-size: 16px;
+  width: 145.19px;
+  height: 36px;
+  right:4.54vw;
+  top: 4.76vh;
 }
 
 #directorBtn {
-  height: 4.461%;
-  width: 18%;
-  background-color: #3462E0;
-  border-radius: 24px;
-  font-size: 18px;
-  padding-left: 30px;
-}
-
-.circle {
-  border: 2px solid white;
-  border-radius: 50% ;
-  height: 30px ;
-  width: 30px;
-  color: white;
-  float: right;
+  height: 48px;
+  width: 328px;
 }
