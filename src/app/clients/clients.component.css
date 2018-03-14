@@ -1,6 +1,17 @@
 div {
   height: 1020px;
   background: url("../../assets/heros/logo_background.svg") no-repeat center center;
-  background-size: 338px;
+  background-size: 400px;
+  background-position: center;
   background-color: white;
+  text-align: center;
+  padding-top: 13.92vh;
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+}
+
+img {
+  width: 574.43px;
+  height: 603.59px;
+  margin-top: 6.17vh;
 }
