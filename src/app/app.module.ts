@@ -7,6 +7,7 @@ import {TopPageComponent} from "./topPage/topPage.component";
 import {ServicesComponent} from "./services/services.component";
 import {ArsenalComponent} from "./arsenal/arsenal.component";
 import {RxstoryComponent} from "./rxStory/rxstory.component";
+import {ClientsComponent} from "./clients/clients.component";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {RxstoryComponent} from "./rxStory/rxstory.component";
     TopPageComponent,
     ServicesComponent,
     ArsenalComponent,
-    RxstoryComponent
+    RxstoryComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule
