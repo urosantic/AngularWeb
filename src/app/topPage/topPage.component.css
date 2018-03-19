@@ -9,6 +9,23 @@
   height: 173px;
   background-color: #3462E0;
   bottom: 0;
+  color:white;
+  padding-top: 2.94vh;
+  padding-bottom: 2.74vh;
+}
+
+.bluePart div {
+  position: center;
+  display: inline-block;
+}
+
+.bluePart div img {
+  width:10vw;
+  height: auto;
+  margin-right: 2vw;
+}
+.bluePart p {
+  margin-bottom: 3.45vh;
 }
 
 .whitePart {
