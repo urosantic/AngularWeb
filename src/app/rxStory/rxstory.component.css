@@ -16,23 +16,26 @@
   margin-left:5.48vw;
   margin-top:19.46vh;
   margin-bottom: 0px;
+  width: 31.8vw;
 }
 
 .rightPart {
-  width: 732px;
-  height: 500px;
+  width: 38.125vw;
+  height: 49vh;
   float: right;
   margin-top: 13.77vh;
+  background: url("../../assets/heros/getmyrx_success_image.jpg") no-repeat ;
+  background-size: contain;
 }
 
 #myrxTimeline {
-  width: 597.76px;
+  width: 31.1vw;
   height: 50.92px;
 }
 
 h1 {
   font-size: 2.5em;
-  letter-spacing: 0.13em;
+  letter-spacing: 0.05em;
   margin-bottom: 3.4vh;
 }
 
@@ -53,3 +56,4 @@ h1 {
   position: relative;
   top: 0.5vh;
 }
+
