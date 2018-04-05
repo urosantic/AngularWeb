@@ -8,6 +8,7 @@ import {ServicesComponent} from "./services/services.component";
 import {ArsenalComponent} from "./arsenal/arsenal.component";
 import {RxstoryComponent} from "./rxStory/rxstory.component";
 import {ClientsComponent} from "./clients/clients.component";
+import {YeetComponent} from "./yeet/yeet.component";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {ClientsComponent} from "./clients/clients.component";
     ServicesComponent,
     ArsenalComponent,
     RxstoryComponent,
-    ClientsComponent
+    ClientsComponent,
+    YeetComponent
   ],
   imports: [
     BrowserModule

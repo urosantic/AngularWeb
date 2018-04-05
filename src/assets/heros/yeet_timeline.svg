@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="198 4152 424.757 50.588">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #213671;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-2, .cls-6 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #61d87c;
+      }
+
+      .cls-6 {
+        font-size: 10px;
+        letter-spacing: 0.09em;
+      }
+    </style>
+  </defs>
+  <g id="Group_99" data-name="Group 99" transform="translate(0 -230)">
+    <g id="Group_98" data-name="Group 98" transform="translate(197.5 4381.4)">
+      <path id="Path_385" data-name="Path 385" class="cls-1" d="M410.466,26.364H15.893C7.819,26.364,1.5,20.552,1.5,13.482h0C1.5,6.256,7.994.6,15.893.6h394.4c8.074,0,14.393,5.813,14.393,12.882h0C424.858,20.552,418.364,26.364,410.466,26.364Z" transform="translate(0.571)"/>
+      <text id="Quest_for_Series_A_5-7M" data-name="Quest for Series A $5-7M" class="cls-2" transform="translate(213.951 17.631)"><tspan x="0" y="0">Quest for Series A </tspan><tspan class="cls-3" y="0">$5-7M</tspan></text>
+      <path id="Path_386" data-name="Path 386" class="cls-4" d="M164.984,26.364H13.382A12.84,12.84,0,0,1,.5,13.482h0A12.84,12.84,0,0,1,13.382.6h151.6a12.84,12.84,0,0,1,12.882,12.882h0A12.741,12.741,0,0,1,164.984,26.364Z"/>
+      <text id="Seed_Round_1.3M_MVP" data-name="Seed Round $1.3M, MVP" class="cls-5" transform="translate(18.308 17.631)"><tspan x="0" y="0">Seed Round $1.3M, MVP</tspan></text>
+      <text id="INVESTMENT_TO_DATE" data-name="INVESTMENT TO DATE" class="cls-6" transform="translate(7.336 48.189)"><tspan x="0" y="0">INVESTMENT TO DATE</tspan></text>
+    </g>
+  </g>
+</svg>
