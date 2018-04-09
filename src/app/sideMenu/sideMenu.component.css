@@ -6,9 +6,9 @@
 }
 
 .homeLogo {
-  height: 12.6vh;
+  height: 14.7%;
   background: url("../../assets/sideMenu/Logo.svg") no-repeat center center;
-  background-size: 50% 50%;
+  background-size: 42% 37%;
 }
 
 .itemSideMenu {
@@ -18,26 +18,26 @@
 
 #services {
   background: url("../../assets/sideMenu/menu_services.svg") no-repeat center center;
-  background-size: 50% 50%;
+  background-size: 43.4% 45.3%;
   background-color: #F0F0F0;
 }
 
 #work {
    background: url("../../assets/sideMenu/work_icon.svg") no-repeat center center;
-   background-size: 50% 50%;
+   background-size: 38.25% 43.5%;
  }
 
 #clients {
   background: url("../../assets/sideMenu/menu_clients.svg") no-repeat center center;
-  background-size: 50% 50%;
+  background-size: 39.34% 51.44%;
 }
 
 #contact {
   background: url("../../assets/sideMenu/menu_contact.svg") no-repeat center center;
-  background-size: 50% 50%;
+  background-size: 39.34% 41.05%;
 }
 
 #successStory {
   background: url("../../assets/sideMenu/success_story_icon_menu.svg") no-repeat center center;
-  background-size: 50% 50%;
+  background-size: 47.1% 49.7%;
 }
