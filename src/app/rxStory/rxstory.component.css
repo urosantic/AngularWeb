@@ -1,8 +1,11 @@
 .rxStory {
-  height: 704px;
+  height: 65.2%;
   width: 100%;
   background-color: #E58585;
-  padding-right: 9.60vw;
+  padding-right: 4.22%;
+  padding-top: 13.77%;
+  padding-left: 5.48%;
+  padding-bottom: 5%;
 }
 
 .tools img {
@@ -13,17 +16,13 @@
 
 .leftPart {
   float: left;
-  margin-left:5.48vw;
-  margin-top:19.46vh;
-  margin-bottom: 0px;
-  width: 31.8vw;
+  width: 31.8%;
 }
 
 .rightPart {
-  width: 38.125vw;
-  height: 49vh;
+  width: 40.1%;
+  height: 71%;
   float: right;
-  margin-top: 13.77vh;
   background: url("../../assets/heros/getmyrx_success_image.jpg") no-repeat ;
   background-size: contain;
 }
