@@ -9,6 +9,7 @@ import {ArsenalComponent} from "./arsenal/arsenal.component";
 import {RxstoryComponent} from "./rxStory/rxstory.component";
 import {ClientsComponent} from "./clients/clients.component";
 import {YeetComponent} from "./yeet/yeet.component";
+import {AlertModule} from "ngx-bootstrap";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {YeetComponent} from "./yeet/yeet.component";
     YeetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

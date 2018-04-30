@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="189 2725 196.851 55.649">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_7);
+      }
+    </style>
+    <filter id="Rectangle_7" x="189" y="2725" width="196.851" height="55.649" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_113" data-name="Group 113" transform="translate(-680 2541)">
+    <g id="Group_39" data-name="Group 39" transform="translate(878 190)">
+      <g class="cls-3" transform="matrix(1, 0, 0, 1, -198, -2731)">
+        <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-1" width="178.851" height="37.649" rx="18.824" transform="translate(198 2731)"/>
+      </g>
+      <text id="PLAY_VIDEO" data-name="PLAY VIDEO" class="cls-2" transform="translate(22.118 9.765)"><tspan x="18.335" y="14">PLAY VIDEO</tspan></text>
+    </g>
+  </g>
+</svg>

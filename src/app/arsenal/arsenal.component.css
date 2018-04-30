@@ -3,7 +3,6 @@
   background-color: white;
   text-align: center;
   width: 100%;
-  padding-top: 36px;
 }
 
 .arsenaMain .tools {
@@ -13,12 +12,17 @@
 }
 
 img {
-  height: 31.16%;
+  height: auto;
   width: 2.895%;
-  margin-bottom: 40.4px;
+  min-height: 70px;
+  margin-bottom: 3.71%;
+  min-width: 35px;
+  size: auto;
 }
 
 p {
   font-size: 1.25em;
   letter-spacing: 0.4vw;
+  margin-top:2.5%;
+  margin-bottom:1.25%;
 }

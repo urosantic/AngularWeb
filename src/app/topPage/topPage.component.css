@@ -23,8 +23,10 @@
 
 .bluePart div img {
   width:9.27%;
+  min-width: 65px;
   height: 19.52%;
   margin-right: 5%;
+  margin-bottom: 5px;
 }
 .bluePart p {
   margin-bottom: 1.62%;
@@ -33,6 +35,8 @@
 .whitePart {
   height: 83.922%;
   width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 #logo{
@@ -48,12 +52,77 @@
 #resume {
   position: absolute;
   width: 7.96%;
-  height: 3.33%;
+  /*height: 3.33%;*/
   right:3.24%;
   top: 4%;
 }
 
 #dirBtn {
-  width: 18%;
+  width: 80%;
   height: auto;
 }
+
+
+@media (max-width: 1400px) {
+  #resume {width: 10%;}
+  #dirBtn {width: 25%;}
+}
+
+@media (max-width: 1000px) {
+  #resume {width: 16%;}
+  #dirBtn {width: 36%;}
+  #logo {margin-top: 20%;}
+}
+
+@media (max-width: 768px) {
+  #resume {width: 20%;}
+  #dirBtn {width: 80%;}
+}
+
+@media (max-width: 700px) {
+  #resume {width: 20%;}
+  #dirBtn {width: 40%;}
+}
+
+@media (max-width: 600px) {
+  #resume { width: 23%;}
+  #dirBtn {width: 42%;}
+  #logo {margin-top: 23%;}
+}
+
+@media (max-width: 450px) {
+  #resume { width: 25%;}
+  #dirBtn {width: 60%;}
+  #logo {margin-top: 30%;}
+}
+
+@media (max-width: 400px) {
+  #resume {width: 25%;}
+  #dirBtn {width: 60%;}
+  #logo {margin-top: 40%;}
+}
+
+@media (max-width: 375px) {
+  #logo{margin-top: 30%}
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+@media (max-height: 823px) {
+  #logo {margin-top: 40%;}
+  .bluePart p {
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+}
+
+@media (max-height: 715px) {
+  #logo {margin-top: 20%;}
+  .bluePart p {
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+}
+

@@ -41,3 +41,8 @@
   background: url("../../assets/sideMenu/success_story_icon_menu.svg") no-repeat center center;
   background-size: 47.1% 49.7%;
 }
+
+
+@media (max-width: 800px) {
+
+}
