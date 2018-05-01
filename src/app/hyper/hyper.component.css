@@ -1,0 +1,54 @@
+.hypeContent {
+  height: 95%;
+  width: 100%;
+  background: url("../../assets/hyper/hyp3r_bkgd_image.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  font-size: 0.9em;
+}
+
+#hyperBox {
+  background-color: white;
+  height:49%;
+  position: absolute;
+  width: 85%;
+  margin-top: 50%;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+  box-shadow: 1px 1px 20px lightblue;
+  text-align: left;
+}
+
+#hyperLogo {
+  position: absolute;
+  height: 8%;
+  top: 9%;
+  right: 5%;
+}
+
+#topLeftBox {
+  height: 10%;
+  top: 8%;
+  position: absolute;
+  left: -5%;
+}
+
+.leftContent p {
+  position: absolute;
+  top: 20%;
+  left:8%;
+  font-size: 0.8em;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
