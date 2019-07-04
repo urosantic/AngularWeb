@@ -1,28 +1,16 @@
-.arsenaMain {
-  height: 15.92%;
-  background-color: white;
+
+
+.container {
+  height: 20vh;
   text-align: center;
-  width: 100%;
+  padding-top: 1.5%;
 }
 
-.arsenaMain .tools {
-  width: 100%;
-  margin: 0;
-  display: inline-block;
+.row {
+  justify-content: center;
 }
+
 
 img {
-  height: auto;
-  width: 2.895%;
-  min-height: 70px;
-  margin-bottom: 3.71%;
-  min-width: 35px;
-  size: auto;
-}
-
-p {
-  font-size: 1.25em;
-  letter-spacing: 0.4vw;
-  margin-top:2.5%;
-  margin-bottom:1.25%;
+  height: 8vh;
 }

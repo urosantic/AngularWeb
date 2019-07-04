@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, Input, ViewChild, OnInit} from '@angular/core';
+import {BehaviorSubject} from "rxjs/Rx";
 
 @Component({
   selector:'services',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrls:['./services.component.css']
 })
 
-export class ServicesComponent {
+export class ServicesComponent implements OnInit{
+
+  @Input() scrollToElement: string;
+
+  ngOnInit() {
+    console.log(this.scrollToElement);
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({behavior:"smooth"});
+  }
+
 
 }

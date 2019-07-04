@@ -1,84 +1,41 @@
-.rxStory {
-  height: 120%;/* 65.2%*/
-  width: 100%;
-  background-color: #E58585;
-  padding-right: 4.22%;
-  /*padding-top: 13.77%;*/
-  padding-left: 5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  text-align: center;
-}
-
 .tools img {
-  height: 53.61px;
-  width: 52.75px;
-  margin-bottom: 2.66vh;
+  height: 8vh;
+}
+.container {
+  height: 80vh;
+  min-width: 100%;
+  background-color: #E58585;
+}
+p {
+  font-size: 0.8em;
+  margin-bottom: 2%;
 }
 
+h2 {
+  letter-spacing: 0.15em;
+}
+.leftPart {
+  padding-left: 5%;
+  padding-top: 6%;
+}
 .rightPart {
-  margin-top: 6.8%;
-  width: 100%;
-  height: 35%;
-  background: url("../../assets/heros/gmrx_press.svg") no-repeat ;
-  background-size: contain;
+  padding-left: 0;
+  padding-top: 4%;
 }
-
-#myrxTimeline {
-  width: 100%;
-}
-
-h1 {
-  font-size: 2.5em;
-  letter-spacing: 0.05em;
-  margin-bottom: 3.4vh;
-}
-
-#myrxTimeline {
-  margin-bottom: 3.75vh;
-}
-
-#playBtn {
-  width: 50%;
-}
-
-img {
-  /*height: 100%;*/
-  /*width: 100%;*/
-}
-
-/*@media (max-height: 823px) {*/
-  /*.rxStory {*/
-    /*height: 110%;*/
-  /*}*/
-/*}*/
-
-@media (max-height: 823px) {
-  .rxStory {
-    height: 110%;
-  }
-}
-@media (max-height: 736px) {
-  .rightPart {
-    margin-top: 6.8%;
-  }
-  .rxStory {
-    height: 120%;
-  }
-}
-
-@media (max-height: 667px) {
-  .rightPart {
-    margin-top: 4%;
-  }
-  .rxStory {
-    height: 120%;
-  }
-}
-
-
-
 
 .btn:active {
   transform: translateY(4px);
+}
+
+#playBtn {
+  height: 5vh;
+}
+
+#myrxTimeline {
+  width: 80%;
+  margin-bottom: 2%;
+}
+
+#myrxImg {
+  width: 90%;
 }

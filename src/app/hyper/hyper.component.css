@@ -1,54 +1,56 @@
-.hypeContent {
-  height: 95%;
-  width: 100%;
-  background: url("../../assets/hyper/hyp3r_bkgd_image.jpg") no-repeat center center;
+.container {
+  background-image: url("../../assets/hyper/hyp3r_bkgd_image.jpg");
+  height: 90vh;
   background-size: cover;
-  text-align: center;
-  margin: 0;
-  position: relative;
-  font-size: 0.9em;
-}
-
-#hyperBox {
-  background-color: white;
-  height:49%;
-  position: absolute;
-  width: 85%;
-  margin-top: 50%;
-  margin-right: 7.5%;
-  margin-left: 7.5%;
-  box-shadow: 1px 1px 20px lightblue;
-  text-align: left;
+  min-width: 100%;
+  padding-top: 10%;
 }
 
 #hyperLogo {
   position: absolute;
   height: 8%;
-  top: 9%;
+  top: 7%;
   right: 5%;
 }
 
 #topLeftBox {
-  height: 10%;
-  top: 8%;
+  height: auto;
+  width: 30%;
+  top: 7%;
   position: absolute;
   left: -5%;
 }
 
-.leftContent p {
+.box {
+  background-color: white;
+  box-shadow: 1px 1px 20px lightblue;
+  text-align: left;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  position: relative;
+  /*width: 100%;*/
+}
+
+#brand {
   position: absolute;
   top: 20%;
-  left:8%;
+  left:3%;
   font-size: 0.8em;
-}
-.text {
-  position: absolute;
-  top: 30%;
-  margin-left: 5%;
-  margin-right: 3%;
 }
 
 h1 {
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-top: 20%;
 }
+
+#txt {
+  font-size: 0.8em;
+  margin-bottom: 4%;
+}
+
+.logos {
+  justify-content: center;
+}
+

@@ -1,15 +1,43 @@
-<div class="caseContent">
-  <div class="textPart">
-    <img class="logo" src="../../assets/caseStudies/emerge_logo_gallery.svg" alt="emergeLogo"/>
-    <h1>EMERGE AMERICAS</h1>
-    <p>Emerge Americas was envisioned to become the best Tech Festival in Florida.
-      With a great team of thinkers and doers, as a team we were able to cement its presence as the place techies from
-      various backgrounds to gather and share their insights. Every year there are over 5,000 attendees!
-    </p>
-    <img class="caseStudyBtn" src="../../assets/buttons/play_video_btn.svg" alt="caseStudy"/>
+<div class="container">
+  <div class="row">
+    <div class="textPart col-5 offset-1" [@fadeOnScroll]="state">
+      <img class="logo" src="../../assets/caseStudies/emerge_logo_gallery.svg" alt="emergeLogo"/>
+      <h1>EMERGE AMERICAS</h1>
+      <p>Emerge Americas was envisioned to become the best Tech Festival in Florida.
+        With a great team of thinkers and doers, as a team we were able to cement its presence as the place techies
+        from various backgrounds to gather and share their insights. Every year there are over 5,000 attendees!
+      </p>
+      <div class="btn">
+        <img class="caseStudyBtn" src="../../assets/caseStudies/case_study_btn.svg" alt="caseStudy" (click)="videoModal1.show()"/>
+      </div>
+    </div>
+    <div class="imagePart col-5 offset-1" [@fadeOnScroll2]="state">
+      <img class="banner" src="../../assets/buttons/5000_guests_work_banner.svg" alt="5000guests"/>
+    </div>
   </div>
-  <div class="imagePart">
-    <img class="banner" src="../../assets/buttons/5000_guests_work_banner.svg" alt="5000guests"/>
-  </div>
+</div>
 
+<div mdbModal #videoModal1="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myVideoModal1Label"
+     aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/101450027" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!--<div class="modal-footer justify-content-center">-->
+        <!--<span class="mr-4">Spread the word!</span>-->
+        <!--<a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>-->
+        <!--&lt;!&ndash;Twitter&ndash;&gt;-->
+        <!--<a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>-->
+        <!--&lt;!&ndash;Google +&ndash;&gt;-->
+        <!--<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus"></i></a>-->
+        <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+        <!--<a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>-->
+
+        <!--<button mdbBtn type="button" color="primary" rounded="true" outline="true" size="md" (click)="videoModal1.hide()">Close</button>-->
+      <!--</div>-->
+    </div>
+  </div>
 </div>

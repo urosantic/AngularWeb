@@ -1,0 +1,13 @@
+.container-fluid {
+  height: 7vh;
+  text-align: center;
+  background-color: #4B5C8B;
+  color: white;
+  min-width: 100%;
+  line-height: 7vh;
+}
+
+p {
+  font-size: 0.8em;
+  margin: 0;
+}

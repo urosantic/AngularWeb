@@ -1,0 +1,52 @@
+.container-fluid {
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.row {
+  padding-top: 3%;
+  /*margin-top: 3%;*/
+  margin-bottom: 3%;
+  padding-left: 5%;
+  right: 5%;
+  vertical-align: middle;
+}
+
+#artCenter {
+  text-align: center;
+}
+
+#pratt {
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-height: 40px;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+@media (max-width:991px) {
+  .container-fluid {text-align: center}
+  h1 {font-size: 2em;}
+  h3 {font-size: 1.5em;}
+  #textPart { margin-bottom: 3%;}
+  img  {height: 35%;}
+  .row {padding-left: 0;margin-bottom: 0;}
+}

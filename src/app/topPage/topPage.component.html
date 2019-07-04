@@ -1,43 +1,21 @@
-<div class="topPage">
-  <div class="whitePart">
-    <div class="container-fluid">
-      <img id="resume" src="../../assets/buttons/resume_btn.svg" alt="resume">
-      <img id="logo" src="../../assets/sideMenu/Logo.svg " alt="logo"/>
-      <p style="font-size: 1.5em; margin-top: 1.3vh; letter-spacing: 0.4vw;"><b>ALEXANDER MARZO</b></p>
-      <p style="color: #3462E0;font-size: 1.125em; margin-top: 2vh"><b>DIRECTOR OF UX UI WITH 10 YEARS OF BRINGING
-        PEOPLE AND IDEAS TOGETHER</b></p>
-      <p style="font-size: 3.75em; margin-top: 5.46vh"><b>CREATIVITY FUELED BY DATA</b></p>
-      <div class="btn">
-        <img id="dirBtn" src="../../assets/buttons/ux_ui_play_btn.svg" alt="ux_ui">
+<div class="container">
+  <div class="text-wrap">
+    <div class="row">
+      <div class="col-md-6 leftpanel col-sm-12 order-sm-last order-md-first">
+        <mat-video [autoplay]="true" [muted]="true" [loop]="true" [preload]="true" [overlay]="false">
+          <source matVideoSource src="../../assets/1024077818-preview.mp4" type="video/mp4">
+        </mat-video>
       </div>
-    </div>
-  </div>
-  <div class="bluePart">
-    <div class="container-fluid">
-      <p><b>IN THE NEWS</b></p>
-      <div class="row">
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/wired_logo.svg" alt="wired">
-        </div>
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/behance_logo.svg" alt="behace">
-        </div>
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/coroflot_logo.svg" alt="coroflot">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/hyp3r_techcrunch_logo.svg" alt="techCrunch">
-        </div>
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/LA_show_logo.svg" alt="laAutoShow">
-        </div>
-        <div class="col-xs-4">
-          <img src="../../assets/inTheNews/LA_show_logo.svg" alt="laAutoShow">
+      <div #TopPage class="col-md-6 rightpanel col-sm-12 order-sm-first order-md-last">
+        <div @fade>
+          <img style="height: 5vh; position: absolute; top: 4%;right: 4%" id="resume" src="../../assets/buttons/resume_btn.svg" alt="resume">
+          <img style="height: 16vh; margin-bottom: 3%" src="../../assets/heros/image_alex@2x.png" alt="logo"/>
+          <p style="font-size: 1.3em; letter-spacing: 0.14em; margin-bottom: 0;"><b>ALEXANDER MARZO</b></p>
+          <p style="color: white;font-size: 1.3em; letter-spacing: 0.14em"><b>DIRECTOR: CREATIVE STRATEGY & UX UI </b></p>
+          <p style="font-size: 1.6em; color: white;letter-spacing: 0.05em;"><b>12 YEARS OF BRINGING<br/>IDEAS, & TEAMS TOGETHER</b></p>
+          <img style="height: 5vh;" src="../../assets/buttons/cta_bio%20(1).svg" alt="biografyButton">
         </div>
       </div>
     </div>
   </div>
 </div>
-

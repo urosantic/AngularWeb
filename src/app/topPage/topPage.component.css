@@ -1,61 +1,22 @@
-.topPage {
-    text-align: center;
-    background: url(../../assets/heros/heero_image_hp.jpg) no-repeat center center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+.leftpanel {
+  background-image: url("../../assets/heros/hero_image_hyper_original.jpg");
+  background-size: cover;
+  height: 85vh;
+  padding: 0;
 }
 
-.bluePart {
-  height: 16%;
+.rightpanel {
+  height: 85vh;
+  padding-left: 5%;
+  padding-top: 6%;
+  padding-right: 8%;
   background-color: #3462E0;
-  bottom: 0;
-  color:white;
-  padding-top: 1.06%;
-  padding-bottom: 2.6%;
 }
 
-.bluePart div {
-  /*position: center;*/
-  /*display: inline-block;*/
+.container {
+  height: 85vh;
   width: 100%;
-}
-
-.bluePart div img {
-  /*width:9.27%;*/
-  /*min-width: 65px;*/
-  height: 20.52%;
-  margin-right: 5%;
-  /*margin-bottom: 5px;*/
-}
-.bluePart p {
-  margin-bottom: 1.62%;
-}
-
-.whitePart {
-  height: 83.922%;
-  width: 100%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#logo{
-    margin-top: 12.6%;
-    margin-bottom: 0;
-    height: 7.45%;
-  width: 15%;
-}
-
-.whitePart p {
-  letter-spacing: 0.15vw;
-}
-
-#resume {
-  position: absolute;
-  width: 7.96%;
-  /*height: 3.33%;*/
-  right:3.24%;
-  top: 4%;
+  min-width: 100%;
 }
 
 #dirBtn {
@@ -63,67 +24,20 @@
   height: auto;
 }
 
-
-@media (max-width: 1400px) {
-  #resume {width: 10%;}
-  #dirBtn {width: 25%;}
-}
-
-@media (max-width: 1000px) {
-  #resume {width: 16%;}
-  #dirBtn {width: 36%;}
-  #logo {margin-top: 20%;}
-}
-
-@media (max-width: 768px) {
-  #resume {width: 20%;}
-  #dirBtn {width: 80%;}
-}
-
-@media (max-width: 700px) {
-  #resume {width: 20%;}
-  #dirBtn {width: 40%;}
-}
-
-@media (max-width: 600px) {
-  #resume { width: 23%;}
-  #dirBtn {width: 42%;}
-  #logo {margin-top: 23%;}
-}
-
-@media (max-width: 450px) {
-  #resume { width: 25%;}
-  #dirBtn {width: 60%;}
-  #logo {margin-top: 30%;}
-}
-
-@media (max-width: 400px) {
-  #resume {width: 25%;}
-  #dirBtn {width: 60%;}
-  #logo {margin-top: 40%;}
-}
-
-@media (max-width: 375px) {
-  #logo{margin-top: 30%}
-}
-
 .btn:active {
   transform: translateY(4px);
 }
 
-@media (max-height: 823px) {
-  #logo {margin-top: 40%;}
-  .bluePart p {
-    margin-bottom: 3%;
-    margin-top: 2%;
-  }
+.disabled {
+  pointer-events: none;
 }
 
-@media (max-height: 715px) {
-  #logo {margin-top: 20%;}
-  .bluePart p {
-    margin-bottom: 3%;
-    margin-top: 2%;
+@media (max-width: 767px) {
+  .container {
+    height: 170vh;
   }
+  /*.col-sm-4 {*/
+    /*min-height: 33.3333333%;*/
+    /*height: 33.3333333%;*/
+  /*}*/
 }
-

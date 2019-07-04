@@ -1,7 +1,16 @@
-.main {
-  height: 83.2%;
-  width: 100%;
-  background: url("../../assets/heros/logo_background.svg") no-repeat center center;
+.container {
+  height: 90vh;
+  text-align: center;
   background-color: #EFEFEF;
-  background-size: 338px;
+  background-image: url("../../assets/heros/logo_background.svg");
+  /*background-size: cover;*/
+  background-position: center;
+  background-size: 45vh;
+  background-repeat: no-repeat;
+  min-width: 100%;
 }
+
+.row{
+  padding-top: 5%;
+}
+

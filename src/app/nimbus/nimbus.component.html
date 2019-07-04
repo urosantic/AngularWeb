@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="container">
+  <div class="row">
+    <div class="textPart col-5 offset-1">
+      <img class="logo" src="../../assets/caseStudies/pwc_logo_gallery.svg" alt="footyLogo"/>
+      <h1>NIMBUS APP</h1>
+      <p>Emerge Americas was envisioned to become the best Tech Festival in Florida.
+        With a great team of thinkers and doers, as a team we were able to cement its presence as the place techies
+        from various backgrounds to gather and share their insights. Every year there are over 5,000 attendees!
+      </p>
+      <img class="caseStudyBtn" src="../../assets/buttons/play_video_btn.svg" alt="playvideobtn" (click)="videoModal1.show()"/>
+    </div>
+    <div class="imagePart col-5 offset-1">
+      <img class="banner" src="../../assets/buttons/pwc_work_banner.svg" alt="pwcWorkBanner"/>
+    </div>
+  </div>
+</div>
 
-</body>
-</html>
+<div mdbModal #videoModal1="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myVideoModal1Label"
+     aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/154761272" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!--<div class="modal-footer justify-content-center">-->
+      <!--<span class="mr-4">Spread the word!</span>-->
+      <!--<a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>-->
+      <!--&lt;!&ndash;Twitter&ndash;&gt;-->
+      <!--<a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>-->
+      <!--&lt;!&ndash;Google +&ndash;&gt;-->
+      <!--<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus"></i></a>-->
+      <!--&lt;!&ndash;Linkedin&ndash;&gt;-->
+      <!--<a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>-->
+
+      <!--<button mdbBtn type="button" color="primary" rounded="true" outline="true" size="md" (click)="videoModal1.hide()">Close</button>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
