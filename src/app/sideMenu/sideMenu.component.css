@@ -9,47 +9,80 @@
   height: 14.7%;
   background: url("../../assets/sideMenu/Logo.svg") no-repeat center center;
   background-size: 42% 37%;
+  transition: transform .3s;
+}
+
+.homeLogo:hover {
+  transform: scale(1.2);
 }
 
 .itemSideMenu {
   height: 6.9444%;
-  background: url("../../assets/tmpSideMenu.jpg") no-repeat center center;
+  transition: transform .3s;
+  min-height: 30px;
+}
+
+.itemSideMenu:hover {
+  transform: scale(1.2);
 }
 
 #services {
   background: url("../../assets/sideMenu/menu_services.svg") no-repeat center center;
   background-size: 43.4% 45.3%;
+}
+
+#services:hover {
   background-color: #F0F0F0;
 }
+
 
 #caseStudy {
   background: url("../../assets/sideMenu/casestudy_icon_menu.svg") no-repeat center center;
   background-size: 43.4% 45.3%;
 }
 
+#caseStudy:hover {
+  background-color: #F0F0F0;
+}
+
 #work {
    background: url("../../assets/sideMenu/work_icon.svg") no-repeat center center;
    background-size: 38.25% 43.5%;
  }
+#work:hover{
+  background-color: #F0F0F0;
+}
 
 #clients {
   background: url("../../assets/sideMenu/menu_clients.svg") no-repeat center center;
   background-size: 39.34% 51.44%;
+}
+#clients:hover{
+  background-color: #F0F0F0;
 }
 
 #contact {
   background: url("../../assets/sideMenu/menu_contact.svg") no-repeat center center;
   background-size: 39.34% 41.05%;
 }
+#contact:hover{
+  background-color: #F0F0F0;
+}
 
 #successStory {
   background: url("../../assets/sideMenu/success_story_icon_menu.svg") no-repeat center center;
   background-size: 47.1% 49.7%;
 }
+#successStory:hover{
+  background-color: #F0F0F0;
+}
 
 #confidental {
   background: url("../../assets/sideMenu/confidential_icon_menu.svg") no-repeat center center;
   background-size: 47.1% 49.7%;
+}
+#confidental:hover{
+  background-color: #F0F0F0;
 }
 
 

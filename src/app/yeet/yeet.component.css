@@ -3,7 +3,8 @@
   color: white;
   background-color: #005ADD;
   width: 100%;
-  padding-top: 7%
+  padding-top: 7%;
+  min-height:600px ;
 }
 
 .leftYeet {
@@ -24,7 +25,8 @@
 }
 
 #YeetLogo {
-  height: 7vh;
+  height: 6vh;
+  margin-bottom: 3%;
 }
 
 p{

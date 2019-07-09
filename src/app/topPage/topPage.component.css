@@ -24,6 +24,14 @@
   height: auto;
 }
 
+#resume{
+  transition: transform .3s;
+}
+
+#resume:hover {
+  transform: scale(1.2);
+}
+
 .btn:active {
   transform: translateY(4px);
 }

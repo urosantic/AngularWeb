@@ -1,5 +1,4 @@
 import {Component, ElementRef, HostListener} from '@angular/core';
-import { WavesModule, ModalModule, CarouselModule } from 'angular-bootstrap-md'
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
 
@@ -33,7 +32,6 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
 export class EmergeComponent {
   state =  'hide';
-  state2 = 'hide';
 
   constructor(public el: ElementRef){}
 
@@ -44,10 +42,6 @@ export class EmergeComponent {
 
     if (scrollPosition +300 >= componentPosition) {
       this.state = 'show';
-      this.state2 ='show';
     }
-    // else if(scrollPosition +300 >= componentPosition) {
-    //   this.state = 'show';
-    // }
   }
 }

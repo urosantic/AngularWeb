@@ -31,7 +31,6 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
 export class FootyComponent {
   state =  'hide';
-  state2 = 'hide';
 
   constructor(public el: ElementRef){}
 
@@ -42,7 +41,6 @@ export class FootyComponent {
 
     if (scrollPosition +300 >= componentPosition) {
       this.state = 'show';
-      this.state2 ='show';
     }
   }
 }

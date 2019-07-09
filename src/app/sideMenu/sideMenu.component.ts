@@ -11,8 +11,10 @@ export class SideMenuComponent {
 
   scrollToElement: HTMLElement;
 
-  scroll(el: HTMLElement) {
-    el.scrollIntoView({behavior:"smooth"});
+  hover = false;
+
+  scroll() {
+    // el.scrollIntoView({behavior:"smooth"});
   }
 
   scrollCase() {

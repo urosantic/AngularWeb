@@ -1,15 +1,15 @@
 <div class="container">
   <div class="row">
-    <div class="textPart col-5 offset-1">
+    <div class="textPart col-5 offset-1" [@fadeOnScroll]="state">
       <img class="logo" src="../../assets/caseStudies/pwc_logo_gallery.svg" alt="footyLogo"/>
       <h1>NIMBUS APP</h1>
-      <p>Emerge Americas was envisioned to become the best Tech Festival in Florida.
-        With a great team of thinkers and doers, as a team we were able to cement its presence as the place techies
-        from various backgrounds to gather and share their insights. Every year there are over 5,000 attendees!
+      <p>Collaboration with Gamut to create a unique App for PwC: Manufacturing Product Management platform to control every step of manufacturing with quality control.
+        Nimbus offers employee tracking when dealing with sensitive material as well as a robust communication system to keep managers on point with damage control.
+        System updates on the cloud. Really unique platform, check the video
       </p>
       <img class="caseStudyBtn" src="../../assets/buttons/play_video_btn.svg" alt="playvideobtn" (click)="videoModal1.show()"/>
     </div>
-    <div class="imagePart col-5 offset-1">
+    <div class="imagePart col-5 offset-1" [@fadeOnScroll2]="state">
       <img class="banner" src="../../assets/buttons/pwc_work_banner.svg" alt="pwcWorkBanner"/>
     </div>
   </div>
