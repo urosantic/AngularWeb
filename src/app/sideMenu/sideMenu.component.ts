@@ -13,8 +13,9 @@ export class SideMenuComponent {
 
   hover = false;
 
-  scroll() {
-    // el.scrollIntoView({behavior:"smooth"});
+  scrollTopPage() {
+    let el = document.getElementById('topPage1');
+    el.scrollIntoView({behavior:'smooth'});
   }
 
   scrollCase() {
@@ -23,8 +24,8 @@ export class SideMenuComponent {
     el.scrollIntoView({behavior:'smooth'});
   }
 
-  scrollNimbus() {
-    let el = document.getElementById('nimbus');
+  scrollSuccess() {
+    let el = document.getElementById('success1');
     el.scrollIntoView({behavior:'smooth'});
   }
 
@@ -33,11 +34,19 @@ export class SideMenuComponent {
     el.scrollIntoView({behavior:'smooth'});
   }
 
-  scrollTopPage() {
-    let el = document.getElementById('topPage1');
+  scrollClients() {
+    let el = document.getElementById('clients1');
     el.scrollIntoView({behavior:'smooth'});
   }
 
+  scrollWork() {
+    let el = document.getElementById('work1');
+    el.scrollIntoView({behavior:'smooth'});
+  }
+  scrollContact() {
+    let el = document.getElementById('contact1');
+    el.scrollIntoView({behavior:'smooth'});
+  }
 
 }
 

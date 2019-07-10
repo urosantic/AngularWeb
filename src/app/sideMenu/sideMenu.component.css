@@ -7,7 +7,7 @@
 
 .homeLogo {
   height: 14.7%;
-  background: url("../../assets/sideMenu/Logo.svg") no-repeat center center;
+  background: url("../../assets/sideMenu/Logo_marzo.svg") no-repeat center center;
   background-size: 42% 37%;
   transition: transform .3s;
 }

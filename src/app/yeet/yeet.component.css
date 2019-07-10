@@ -17,6 +17,7 @@
 }
 .tools img {
   height: 8vh;
+  min-height: 50px;
 }
 
 #yeetTimeline {
@@ -27,6 +28,7 @@
 #YeetLogo {
   height: 6vh;
   margin-bottom: 3%;
+  min-height: 30px;
 }
 
 p{
@@ -36,6 +38,7 @@ p{
 #exploreWork {
   height: 5vh;
   justify-content: flex-start;
+  min-height: 30px;
 }
 
 .container {
@@ -45,6 +48,7 @@ p{
 #YeetPic {
   width: 90%;
   height: 60vh;
+  min-height: 400px;
 }
 
 

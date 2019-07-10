@@ -1,9 +1,11 @@
 .tools img {
   height: 8vh;
+  min-height: 50px;
 }
 .container {
   height: 80vh;
   min-width: 100%;
+  min-height: 500px;
   background-color: #E58585;
 }
 p {
@@ -29,6 +31,7 @@ h2 {
 
 #playBtn {
   height: 5vh;
+  min-height: 30px;
 }
 
 #myrxTimeline {
@@ -38,5 +41,5 @@ h2 {
 
 #myrxImg {
   width: 90%;
-  /*min-height: 600px;*/
+  min-height: 400px;
 }

@@ -5,11 +5,13 @@
   min-width: 100%;
   padding-right: 4%;
   padding-bottom: 2%;
+  min-height: 300px;
 }
 
 .logo {
   height: 6vh;
   margin-bottom: 3%;
+  min-height: 40px;
 
 }
 
@@ -24,11 +26,13 @@
 .caseStudyBtn {
   height: 5vh;
   /*margin-bottom: 5%;*/
+  min-height: 30px;
 }
 
 h1 {
   font-weight: 700;
   letter-spacing: 0.1em;
+  font-size: 6vh;
 }
 
 p {
@@ -41,6 +45,7 @@ p {
   background-size: cover;
   margin-top: 3%;
   box-shadow: 1px 1px 20px #3380A7;
+  min-height: 250px;
 }
 
 .textPart {

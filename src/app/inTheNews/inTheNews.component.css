@@ -6,6 +6,7 @@
   padding-left: 8%;
   padding-right: 8%;
   height: 22vh;
+  min-height: 150px;
   min-width: 100%;
 }
 
@@ -13,6 +14,10 @@
 p {
   color: white;
   letter-spacing: 0.10em;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
+.imageLogo {
+  height: 8vh;
+  min-height: 80px;
+}

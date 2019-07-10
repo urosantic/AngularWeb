@@ -13,7 +13,7 @@ export class ContactFormComponent implements OnInit {
   email1: string;
   message: string;
 
-  endpoint = '../../assets/js/sendemail.js';
+  // endpoint = '../../assets/js/sendemail.js';
 
   constructor() {}
 
@@ -25,12 +25,12 @@ export class ContactFormComponent implements OnInit {
     // const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
     // alert(allInfo);
 
-      const data = {
-        toEmail: 'urosantic@hotmail.com',
-        toName: 'Jeff Delaney'
-      }
-
-      this.http.post(this.endpoint, data).subscribe()
+      // const data = {
+      //   toEmail: 'urosantic@hotmail.com',
+      //   toName: 'Jeff Delaney'
+      // }
+      //
+      // this.http.post(this.endpoint, data).subscribe()
     }
   }
 
