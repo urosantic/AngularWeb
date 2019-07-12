@@ -2,4 +2,12 @@
   navbar {
     display: none;
   }
+
+}
+
+
+@media (max-width: 767px) {
+  submerge,fiat,footy {
+    display: none;
+  }
 }

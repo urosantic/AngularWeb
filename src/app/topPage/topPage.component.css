@@ -36,6 +36,10 @@
   height: 7vh; min-height: 40px; margin-bottom: 3%;
 }
 
+#bio {
+  height: 5vh;min-height: 30px; transition: transform .3s;
+}
+
 #bio:hover {
   transform: scale(1.2);
 }
@@ -60,6 +64,34 @@
 
   #logo {
     display: none;
+  }
+
+  #resume{
+    transition: transform .3s;
+    min-height: 45px; position: relative;
+    width: 40%px;
+  }
+
+  #bio {
+    margin-right: 5%;
+    width: 40%;
+    min-height: 42px;
+  }
+
+  .leftpanel {
+    min-height:350px;
+    height: 50vh;
+  }
+
+  .rightpanel {
+    min-height: 400;
+  }
+
+  .container {
+    min-height: 850px;
+  }
+
+  /*.col-sm-4 x;
   }
   /*.col-sm-4 {*/
     /*min-height: 33.3333333%;*/
