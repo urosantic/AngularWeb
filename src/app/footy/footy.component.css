@@ -5,7 +5,7 @@
   min-width: 100%;
   padding-right: 4%;
   padding-bottom: 2%;
-  min-height: 300px;
+  min-height: 400px;
 }
 
 .logo {
@@ -33,6 +33,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.1em;
   font-size: 6vh;
+  min-font-size: 30px;
 }
 
 p {
@@ -45,7 +46,7 @@ p {
   background-size: cover;
   margin-top: 3%;
   box-shadow: 1px 1px 20px #3380A7;
-  min-height: 250px;
+  min-height: 300px;
 }
 
 .textPart {

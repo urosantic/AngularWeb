@@ -1,8 +1,8 @@
 .container {
   height: 95vh;
   min-width: 100%;
-  background: url("../../assets/heros/logo_background.svg") no-repeat center center;
-  background-size: 40vh;
+  background: url("../../assets/heros/logo_marzo_large_bkgd.svg") no-repeat center center;
+  background-size: 50vh;
   background-attachment: fixed;
   text-align: center;
   padding-top: 4%;

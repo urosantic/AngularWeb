@@ -86,6 +86,8 @@
 }
 
 
-@media (max-width: 800px) {
-
+@media (max-width: 767px) {
+  .side-menu {
+    display: none;
+  }
 }

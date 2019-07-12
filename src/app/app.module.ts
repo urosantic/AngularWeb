@@ -30,6 +30,7 @@ import {FormsModule} from "@angular/forms";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FooterComponent} from "./footer/footer.component";
 import {ScrollToModule} from "ng2-scroll-to-el";
+import {NavbarComponent} from "./navbar/navbar.component";
 
 
 const appRoutes: Routes = [
@@ -60,6 +61,7 @@ const appRoutes: Routes = [
     ContactFormComponent,
     HomeComponent,
     WorkComponent,
+    NavbarComponent,
     FooterComponent
   ],
   imports: [

@@ -41,6 +41,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.1em;
   font-size: 6vh;
+  min-font-size: 30px;
 }
 
 .textPart {

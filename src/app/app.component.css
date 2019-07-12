@@ -12,5 +12,14 @@
 }
 
 
+@media (max-width: 767px) {
+  side-menu {
+    display: none;
+  }
 
+  .content {
+    width: 100% !important;
+    left: 0;
+  }
+}
 

@@ -5,6 +5,7 @@
   color: white;
   min-width: 100%;
   line-height: 7vh;
+  min-height: 40px;
 }
 
 p {

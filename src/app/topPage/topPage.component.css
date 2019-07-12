@@ -10,9 +10,9 @@
   height: 85vh;
   min-height: 500px;
   padding-left: 5%;
-  padding-top: 6%;
+  padding-top: 20vh;
   padding-right: 8%;
-  background-color: #3462E0;
+  background-color: #fff;
 }
 
 .container {
@@ -29,6 +29,15 @@
 
 #resume{
   transition: transform .3s;
+  height: 5vh;min-height: 30px; position: absolute; top: 4%;right: 4%;
+}
+
+#logo {
+  height: 7vh; min-height: 40px; margin-bottom: 3%;
+}
+
+#bio:hover {
+  transform: scale(1.2);
 }
 
 #resume:hover {
@@ -46,6 +55,11 @@
 @media (max-width: 767px) {
   .container {
     height: 170vh;
+    margin-top: 10vh;
+  }
+
+  #logo {
+    display: none;
   }
   /*.col-sm-4 {*/
     /*min-height: 33.3333333%;*/

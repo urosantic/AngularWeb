@@ -3,6 +3,7 @@
   height: 10vh;
   text-align: center;
   line-height: 10vh;
+  min-height: 50px;
 }
 
 p {
