@@ -86,8 +86,6 @@ p {
   }
   h1 {
     font-size: 26px;
-    /*font-weight: unset;*/
-    /*letter-spacing: unset;*/
     min-font-size: unset;
     margin-bottom: 26px;
   }
