@@ -8,20 +8,24 @@
       </div>
       <div class="col-md-6 rightpanel col-sm-12 order-0 order-sm-first order-md-last">
         <div @fade>
-          <div class="d-none d-md-block">
-            <img id="resume" src="../../assets/buttons/resume_btn.svg" alt="resume">
-          </div>
+          <a href="../../assets/New_Alex%20Marzo_Resume_2019.pdf" target="_blank">
+            <img class="d-none d-md-block" id="resume" src="../../assets/buttons/resume_btn.svg" alt="resume">
+          </a>
 
           <img id="logo" src="../../assets/sideMenu/Logo_marzo.svg" alt="logo"/>
-          <p style="color: #3462E0; font-size: 1.3em; letter-spacing: 0.14em; margin-bottom: 0;"><b>ALEXANDER MARZO</b></p>
-          <p style="font-size: 1.3em; letter-spacing: 0.14em"><b>DIRECTOR: CREATIVE STRATEGY & UX UI </b></p>
-          <p style="font-size: 1.6em; letter-spacing: 0.05em;"><b>CREATIVE ACE WITH<br/>12 YEARS OF BRINGING IDEAS AND PEOPLE TOGETHER</b></p>
+          <p id="name"><b>ALEXANDER MARZO</b></p>
+          <p id="undername"><b>DIRECTOR: CREATIVE STRATEGY & UX UI </b></p>
+          <p class="d-none d-md-block" id="ace"><b>CREATIVE ACE WITH<br/>12 YEARS OF BRINGING IDEAS AND PEOPLE TOGETHER</b></p>
+          <p class="d-md-none" id="ace1"><b>CREATIVE ACE WITH 12 YEARS OF BRINGING IDEAS AND PEOPLE TOGETHER</b></p>
+          <img class="d-none d-md-block" id="bio" (click)="scrollContact()" src="../../assets/buttons/btn_contact.svg" alt="ContactAlexMarzo">
 
-          <div class="row">
-            <div class="col-sm-12">
-            <img id="bio" src="../../assets/buttons/cta_biography_blue.svg" alt="biografyButton">
+          <div class="row d-md-none">
+            <div class="col-sm-12 buttonsRow">
+            <img class="col-6" id="bio1" (click)="scrollContact()" src="../../assets/buttons/btn_contact.svg" alt="ContactAlexMarzo">
             <!--          <img style="height: 5vh;min-height: 30px; transition: transform .3s;" id="bio" src="../../assets/buttons/cta_biography_blue.svg" alt="biografyButton">-->
-            <img class="d-md-none" id="resume" src="../../assets/buttons/resume_btn.svg" alt="resume">
+            <a href="../../assets/New_Alex%20Marzo_Resume_2019.pdf" target="_blank">
+              <img class="col-6" id="resume1" src="../../assets/buttons/btn_resume.svg" alt="resume">
+            </a>
             </div>
           </div>
 

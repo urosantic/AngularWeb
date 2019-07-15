@@ -3,7 +3,6 @@
   text-align: center;
   background-color: #EFEFEF;
   background-image: url("../../assets/heros/logo_marzo_large_bkgd.svg");
-  /*background-size: cover;*/
   background-position: center;
   background-size: 50vh;
   background-repeat: no-repeat;
@@ -15,10 +14,46 @@
   padding-top: 5%;
 }
 
+h1 {
+  font-size: 2em; letter-spacing: 0.15em;
+}
+
+p{
+  font-size: 1em; margin-bottom: 2%;
+}
+
+.mobileImg {
+  min-height: 350px;width:80%;
+}
+
 @media (max-width: 767px) {
   .container {
     min-height: 750px;
-    -webkit-background-size: 80vh;
-    background-size: 80vh;
+    -webkit-background-size: 350px;
+    background-size: 350px;
+    /*text-align: unset;*/
+    padding-top: 43px;
+    padding-left: 18px;
+  }
+
+  .mobileImg {
+    min-height: 380px;
+    height: 600px;
+    width: unset;
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 7px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .row {
+    padding-top: 0;
   }
 }

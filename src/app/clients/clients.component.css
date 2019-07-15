@@ -15,10 +15,29 @@ img {
   min-height: 450px;
 }
 
+h2 {
+  letter-spacing: 0.1em; margin-bottom: 4%;
+}
+
 
 @media (max-width: 767px) {
   img {
-    height: 100vh;
-    min-height: 380px;
+    min-height: 330px;
+    height: 330px;
+  }
+
+  .container {
+    height: 510px;
+    background-size: 300px;
+    padding-top: 38px;
+    min-height: 510px;
+  }
+
+  h2 {
+    float: left;
+    margin-left: 6%;
+    margin-bottom: 45px;
+    font-size: 26px;
   }
 }
+

@@ -1,6 +1,25 @@
 <div class="container">
   <div class="row no-gutters">
-    <div class="box col-10 offset-1 col-lg-5 offset-lg-6" [@scrollAnimation]="state">
+    <div class="d-md-none mobileBlock">
+    </div>
+    <div class="d-md-none mobileText">
+      <img id="topLeftBox" src="../../assets/hyper/confidential.svg" alt="Confidential"/>
+      <img id="hyperLogo" src="../../assets/hyper/hyp3r_icon.svg" alt="hyperLogo"/>
+      <h1>IT'S ALL ABOUT<br/> THE JOURNEY</h1>
+      <p id="brand">Branding & UX Consultant</p>
+      <p id="txt">Alex was hired as a branding and user experience consultant to HYP3R, a real-time,location-based
+        engagement
+        platform.
+        They're on a mission to make marketing efficient for businesses and delightful for consumers. It was important
+        to identify
+        what made their platform special to venues. HYP3R CEO Carlos Garcia and Alex chose this method of illustrating
+        the journey
+        to visually engage Big Brand execs with the HYP3R story.</p>
+      <img class="col-12 logosHyper" src="../../assets/brandHyper/brand_techcrunch.svg" alt="techcrunchLogo">
+      <img class="col-12 logosHyper" src="../../assets/brandHyper/brand_fastcompany.svg" alt="fast">
+      <img class="col-12 logosHyper" src="../../assets/brandHyper/brand_visa.svg" alt="visa">
+    </div>
+    <div class="box col-10 offset-1 col-lg-5 offset-lg-6  d-none d-md-block" [@scrollAnimation]="state">
       <img id="topLeftBox" src="../../assets/hyper/confidential.svg" alt="Confidential"/>
       <img id="hyperLogo" src="../../assets/hyper/hyp3r_icon.svg" alt="hyperLogo"/>
       <div class="text">
@@ -14,13 +33,14 @@
           to identify
           what made their platform special to venues. HYP3R CEO Carlos Garcia and Alex chose this method of illustrating
           the journey
-          to visually engage Big Brand execs with the HYP3R story.
+          to visually engage Big Brand execs with the HYP3R story.</p>
 
         <div class="row logos">
-          <img style="max-width: 30% " class="col-4" src="../../assets/hyper/techcrunch_icon.svg" alt="techcrunchLogo">
-          <img class="col-4" src="../../assets/hyper/hyp3r_fastco_icon.svg" alt="fast">
-          <img style="max-width: 25%" class="col-4" src="../../assets/hyper/visa.svg" alt="visa">
+          <img id="logo1" class="col-4" src="../../assets/brandHyper/brand_techcrunch.svg" alt="techcrunchLogo">
+          <img id="logo2" class="col-4" src="../../assets/brandHyper/brand_fastcompany.svg" alt="fast">
+          <img id="logo3" class="col-4" src="../../assets/brandHyper/brand_visa.svg" alt="visa">
         </div>
       </div>
   </div>
+</div>
 </div>

@@ -1,6 +1,11 @@
 <div class="container">
   <div class="row">
-    <div class="textPart col-5 offset-1" [@fadeOnScroll]="state">
+    <div class="d-md-none emergeMobileBlock">
+    </div>
+    <div class="textPart col-12 col-md-5 offset-md-1" [@fadeOnScroll]="state">
+      <div class="d-md-none">
+        <img class="banner" src="../../assets/buttons/5000_guests_work_banner.svg" alt="5000guests"/>
+      </div>
       <img class="logo" src="../../assets/caseStudies/emerge_logo_gallery.svg" alt="emergeLogo"/>
       <h1>EMERGE AMERICAS</h1>
       <p>Emerge Americas was envisioned to become the best Tech Festival in Florida. With a great team
@@ -11,7 +16,7 @@
         <img class="caseStudyBtn" src="../../assets/caseStudies/case_study_btn.svg" alt="caseStudy" (click)="videoModal1.show()"/>
       </div>
     </div>
-    <div class="imagePart col-5 offset-1" [@fadeOnScroll2]="state">
+    <div class="imagePart col-5 offset-1 d-none d-md-block" [@fadeOnScroll2]="state">
       <img class="banner" src="../../assets/buttons/5000_guests_work_banner.svg" alt="5000guests"/>
     </div>
   </div>

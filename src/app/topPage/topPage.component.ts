@@ -17,5 +17,8 @@ import {animate, style, transition, trigger} from "@angular/animations";
 })
 
 export class TopPageComponent {
-
+    scrollContact() {
+      let el = document.getElementById('contactFormAlex');
+      el.scrollIntoView({behavior:'smooth'});
+    }
 }

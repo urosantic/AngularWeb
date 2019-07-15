@@ -59,3 +59,29 @@ p{
 .btn {
   text-align: left;
 }
+
+
+@media (max-width: 767px) {
+  .leftYeet {
+    padding-top: 5%;
+  }
+
+  #exploreWork {
+    width: 70%;
+    height: 14vh;
+    float: left;
+    margin-left: -22px;
+  }
+
+  .container {
+    min-height: 550px;
+  }
+
+  #YeetLogo {
+    height: 35px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}

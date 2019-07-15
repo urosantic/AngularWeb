@@ -8,11 +8,9 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 495px;
-
 }
 
 #google {
-  /*position: absolute;*/
   left:0;
   bottom: 0;
   width: 35.40%;
@@ -21,7 +19,7 @@
 }
 
 #gvLogo {
-  width: 71.16px;
+  width: 71px;
   height: auto;
   margin-bottom: 2%;
 }
@@ -56,7 +54,6 @@ h1 {
   padding-top: 5%;
   background-color: white;
   width: 80%;
-  /*height: 50%;*/
   margin-left: 10%;
   box-shadow: 0 0 15px #005088;
   text-align: center;
@@ -86,4 +83,79 @@ h4 {
 
 .contact h1 {
   letter-spacing: 0.1em;
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    min-height: 1200px;
+    padding-top: 47px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-size: 350px;
+  }
+
+  .sprint {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  #gvLogo {
+    margin-left: 16px;
+    height: 40px;
+    width: 63px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: unset;
+    letter-spacing: 2px;
+    margin-bottom: 47px;
+  }
+
+  p{
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .contact {
+    margin-top: 0;
+    padding: 0;
+    text-align: unset;
+  }
+
+  .contact h1 {
+    margin-bottom: 22px;
+  }
+
+  #contactBox {
+    margin-left: 0;
+    width: 100%;
+    text-align: unset;
+    padding-left: 22px;
+    padding-top: 31px;
+    padding-right: 22px;
+  }
+
+  .container {
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    font-size: 12px;
+    font-weight: normal;
+  }
 }

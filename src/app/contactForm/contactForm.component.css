@@ -22,3 +22,16 @@ button {
 .container {
   text-align: center;
 }
+
+
+@media (max-width: 767px) {
+  input {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  button {
+    width: 70%;
+    margin-left: 15%;
+  }
+}

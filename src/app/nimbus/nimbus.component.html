@@ -1,7 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="textPart col-5 offset-1" [@fadeOnScroll]="state">
-      <img class="logo" src="../../assets/caseStudies/pwc_logo_gallery.svg" alt="footyLogo"/>
+    <div class="d-md-block nimbusMobileBlock">
+
+    </div>
+    <div class="textPart col-12 col-md-5 offset-md-1" [@fadeOnScroll]="state">
+      <div class="d-md-none nimbusMobileText">
+        <img class="banner" src="../../assets/buttons/pwc_work_banner.svg" alt="pwcWorkBanner"/>
+      </div>
+      <img class="logo" src="../../assets/caseStudies/pwc_logo_gallery.svg" alt="pwcWorkBanner"/>
       <h1>NIMBUS APP</h1>
       <p>Collaboration with Gamut to create a unique App for PwC: Manufacturing Product Management platform to control every step of manufacturing with quality control.
         Nimbus offers employee tracking when dealing with sensitive material as well as a robust communication system to keep managers on point with damage control.
@@ -9,7 +15,7 @@
       </p>
       <img class="caseStudyBtn" src="../../assets/buttons/play_video_btn.svg" alt="playvideobtn" (click)="videoModal1.show()"/>
     </div>
-    <div class="imagePart col-5 offset-1" [@fadeOnScroll2]="state">
+    <div class="imagePart col-md-5 offset-md-1 d-none d-md-block" [@fadeOnScroll2]="state">
       <img class="banner" src="../../assets/buttons/pwc_work_banner.svg" alt="pwcWorkBanner"/>
     </div>
   </div>

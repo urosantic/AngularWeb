@@ -56,45 +56,90 @@
   pointer-events: none;
 }
 
+#name{
+  color: #3462E0; font-size: 1.3em; letter-spacing: 0.14em; margin-bottom: 0;
+}
+
+#undername {
+  font-size: 1.3em; letter-spacing: 0.14em;
+}
+
+#ace {
+ font-size: 1.6em; letter-spacing: 0.05em;
+}
+
 @media (max-width: 767px) {
   .container {
-    height: 170vh;
-    margin-top: 10vh;
+    margin-top: 60px;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    min-height: 580px;
   }
 
   #logo {
     display: none;
   }
 
-  #resume{
+  #resume1{
     transition: transform .3s;
-    min-height: 45px; position: relative;
-    width: 40%px;
+    position: relative;
+    width: 50%;
+    height:auto;
+    padding: 0;
   }
 
-  #bio {
-    margin-right: 5%;
-    width: 40%;
-    min-height: 42px;
+  #bio1 {
+    transition: transform .3s;
+    width: 50%;
+    height: auto;
+    padding: 0;
   }
 
   .leftpanel {
-    min-height:350px;
-    height: 50vh;
+    min-height:280px;
+    height: 280px;
   }
 
   .rightpanel {
-    min-height: 400;
+    min-height: 580px;
+    width: 100%;
+    height: 580px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .container {
-    min-height: 850px;
+  #name {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 24px;
+    padding-right: 20px;
+  }
+  #undername {
+    font-size: 12px;
+    margin-bottom: 36px;
+    margin-left: 24px;
+    padding-right: 20px;
+
   }
 
-  /*.col-sm-4 x;
+  #ace1 {
+    font-size: 36px;
+    margin-bottom: 64px;
+    margin-left: 24px;
+    padding-right: 20px;
   }
-  /*.col-sm-4 {*/
-    /*min-height: 33.3333333%;*/
-    /*height: 33.3333333%;*/
-  /*}*/
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .buttonsRow {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
 }

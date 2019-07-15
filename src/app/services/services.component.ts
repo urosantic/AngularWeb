@@ -1,5 +1,4 @@
-import {Component, ElementRef, Input, ViewChild, OnInit} from '@angular/core';
-import {BehaviorSubject} from "rxjs/Rx";
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector:'services',

@@ -42,6 +42,7 @@ p {
   margin-bottom: 0;
 }
 
+
 @media (max-width:991px) {
   .container-fluid {text-align: center}
   h1 {font-size: 2em;}
@@ -49,4 +50,48 @@ p {
   #textPart { margin-bottom: 3%;}
   img  {height: 35%;}
   .row {padding-left: 0;margin-bottom: 0;}
+}
+
+
+@media (max-width: 767px) {
+  .container-fluid {
+    min-height: 476px;
+    padding-top: 76px;
+    padding-left: 27px;
+  }
+
+  h1 {
+    margin-bottom: 7px;
+    font-size: 26px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 14px;
+    margin-bottom: 59px;
+    text-align: left;
+  }
+
+  #artCenter img {
+    height: 77px;
+    width: 214px;
+    max-height: 51px;
+    margin-bottom: 9px;
+  }
+
+  #artCenter {
+    margin-bottom: 46px;
+  }
+
+  #pratt img {
+    width: 130px;
+    height: 31px;
+    max-height: 31px;
+    margin-bottom: 9px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
 }

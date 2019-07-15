@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  scrollTopPage() {
+    let el = document.getElementById('topPage1');
+    el.scrollIntoView({behavior:'smooth'});
+  }
   scrollSuccess() {
     let el = document.getElementById('success1');
     el.scrollIntoView({behavior:'smooth'});

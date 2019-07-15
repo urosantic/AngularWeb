@@ -1,7 +1,8 @@
 <div class="container">
   <div class="row">
-    <div class="col-6 leftPart">
-      <h2>GetMyRX ups the ante</h2>
+    <div class="col-12 col-md-6 leftPart order-1 order-sm-last order-md-first">
+      <h2 class="d-md-none">GetMyRx<br/>ups the ante</h2>
+      <h2 class="d-none d-md-block">GetMyRX ups the ante</h2>
 
       <img id="myrxTimeline" src="../../assets/heros/getmyrx_timeline.svg" alt="myRx_timeline">
 
@@ -26,8 +27,8 @@
 
         <img id="playBtn" src="../../assets/buttons/play_video_btn.svg" alt="playVideo"/>
     </div>
-    <div class="col-6 rightPart" [@scrollAnimation]="state">
-      <img id="myrxImg" class="btn" src="../../assets/heros/gmrx_press.svg" alt="myrx_img">
+    <div class="col-12 col-md-6 rightPart order-0 order-sm-first order-md-last" [@scrollAnimation]="state">
+      <img id="myrxImg" src="../../assets/heros/image_getmyrx.jpg" alt="myrx_img">
     </div>
   </div>
 </div>

@@ -12,3 +12,16 @@ p {
   font-size: 0.8em;
   margin: 0;
 }
+
+
+@media (max-width: 767px) {
+  .container-fluid {
+    min-height: 78px;
+    padding-top: 21px;
+    line-height: unset;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

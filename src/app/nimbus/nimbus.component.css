@@ -50,3 +50,60 @@ h1 {
 p {
   font-size: 0.8em;
 }
+
+
+@media (max-width: 767px) {
+  .nimbusMobileBlock {
+    background-image: url("../../assets/heros/image_work_nimbus@2x.jpg");
+    background-size: contain;
+    min-height: 203px;
+    width: 100%;
+  }
+
+  .container {
+    min-height: 771px;
+  }
+
+  .banner {
+    top: 0;
+    left: 0;
+    right: 0;
+    float: right;
+    position: relative;
+    width: 220px;
+    height: 50px;
+  }
+
+  .textPart {
+    margin: 0;
+    padding-left: 26px;
+    padding-right: 0;
+  }
+
+  .nimbusMobileText {
+    padding-left: 26px;
+    padding-top:0;
+  }
+  h1 {
+    font-size: 26px;
+    /*font-weight: unset;*/
+    /*letter-spacing: unset;*/
+    min-font-size: unset;
+    margin-bottom: 26px;
+  }
+
+  .logo {
+    margin-top: 42px;
+    margin-bottom: 58px;
+    height: 80px;
+  }
+  p{
+    margin-right: 23px;
+    margin-bottom: 77px;
+  }
+
+  .caseStudyBtn {
+    height: 57px;
+    width: 200px;
+  }
+}
