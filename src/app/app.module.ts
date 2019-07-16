@@ -32,15 +32,13 @@ import {FooterComponent} from "./footer/footer.component";
 import {ScrollToModule} from "ng2-scroll-to-el";
 import {NavbarComponent} from "./navbar/navbar.component";
 import {FortuneComponent} from "./fortune/fortune.component";
-import {BioComponent} from "./bio/bio.component";
+import {MatTooltipModule} from "@angular/material";
+
 
 
 const appRoutes: Routes = [
   { path:'', component: HomeComponent},
   { path:'work', component: WorkComponent},
-  { path:'bio', component: BioComponent},
-  { path:'home', component: HomeComponent},
-
 ];
 
 @NgModule({
@@ -68,17 +66,17 @@ const appRoutes: Routes = [
     WorkComponent,
     NavbarComponent,
     FooterComponent,
-    FortuneComponent,
-    BioComponent
+    FortuneComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(appRoutes,{scrollPositionRestoration:'enabled'}),
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
     ScrollToModule.forRoot(),
     MatVideoModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

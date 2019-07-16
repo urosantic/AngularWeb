@@ -1,5 +1,5 @@
 import {Component, ElementRef} from '@angular/core';
-import {ScrollToService} from "ng2-scroll-to-el";
+import {TooltipPosition} from "@angular/material/tooltip";
 
 @Component({
   selector:'side-menu',

@@ -78,4 +78,9 @@ h2 {
     letter-spacing: 0;
     font-size: 26px;
   }
+
+  #graphicsMobile {
+    height: 70px;
+    width: 230px;
+  }
 }
