@@ -1,5 +1,5 @@
 .container {
-  background-color: #930000;
+  background-color: #2a394a;
   min-width: 100%;
   height: 50vh;
   color: white;
@@ -24,7 +24,7 @@
 
 .imagePart {
   height: 40vh;
-  background-image: url("../../assets/heros/image_work_fiatOPT.jpg");
+  background-image: url("../../assets/heros/image_FIR1.jpg");
   min-height: 250px;
   background-size: cover;
   margin-top: 3%;
@@ -52,8 +52,8 @@ p {
 }
 
 @media (max-width: 767px) {
-  .fiatMobileBlock {
-    background-image: url("../../assets/heros/image_work_fiatOPT.jpg");
+  .fortuneMobileBlock {
+    background-image: url("../../assets/heros/image_FIR1.jpg");
     background-size: contain;
     min-height: 203px;
     width: 100%;
@@ -79,7 +79,7 @@ p {
     padding-right: 0;
   }
 
-  .fiatMobileText {
+  .fortuneMobileText {
     padding-left: 26px;
     padding-top:0;
   }

@@ -31,11 +31,16 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FooterComponent} from "./footer/footer.component";
 import {ScrollToModule} from "ng2-scroll-to-el";
 import {NavbarComponent} from "./navbar/navbar.component";
+import {FortuneComponent} from "./fortune/fortune.component";
+import {BioComponent} from "./bio/bio.component";
 
 
 const appRoutes: Routes = [
   { path:'', component: HomeComponent},
   { path:'work', component: WorkComponent},
+  { path:'bio', component: BioComponent},
+  { path:'home', component: HomeComponent},
+
 ];
 
 @NgModule({
@@ -62,7 +67,9 @@ const appRoutes: Routes = [
     HomeComponent,
     WorkComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    FortuneComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,

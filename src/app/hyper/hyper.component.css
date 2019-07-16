@@ -1,7 +1,8 @@
 .container {
-  background-image: url("../../assets/hyper/hyp3r_bkgd_image.jpg");
+  background-image: url("../../assets/hyper/hyp3r_bkgd_image1.jpg");
   height: 90vh;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   min-width: 100%;
   padding-top: 10%;
   min-height: 500px;
@@ -30,7 +31,6 @@
   padding-bottom: 25px;
   padding-right: 25px;
   position: relative;
-  /*width: 100%;*/
 }
 
 #brand {
@@ -65,7 +65,7 @@ h1 {
 
 @media (max-width: 767px) {
   .mobileBlock {
-    background-image: url("../../assets/heros/hero_image_hyper_original.jpg");
+    background-image: url("../../assets/hyper/hyp3r_bkgd_image1.jpg");
     background-size: contain;
     min-height: 202px;
     width: 100%;

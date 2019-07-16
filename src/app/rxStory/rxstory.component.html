@@ -25,10 +25,24 @@
         <img src="../../assets/tools/invision_creative_arsenal.svg" alt="invision_creative">
       </div>
 
-        <img id="playBtn" src="../../assets/buttons/play_video_btn.svg" alt="playVideo"/>
+        <img id="playBtn" src="../../assets/buttons/play_video_btn.svg" alt="playVideo" (click)="videoModal1.show()"/>
     </div>
     <div class="col-12 col-md-6 rightPart order-0 order-sm-first order-md-last" [@scrollAnimation]="state">
-      <img id="myrxImg" src="../../assets/heros/image_getmyrx.jpg" alt="myrx_img">
+      <img id="myrxImg" src="../../assets/heros/image_getmyrxOptimized.jpg" alt="myrx_img">
+    </div>
+  </div>
+</div>
+
+
+<div mdbModal #videoModal1="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myVideoModal1Label"
+     aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body mb-0 p-0">
+        <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nyeI9RVqtMA" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </div>
