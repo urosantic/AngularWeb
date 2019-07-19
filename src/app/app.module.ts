@@ -33,6 +33,7 @@ import {ScrollToModule} from "ng2-scroll-to-el";
 import {NavbarComponent} from "./navbar/navbar.component";
 import {FortuneComponent} from "./fortune/fortune.component";
 import {MatTooltipModule} from "@angular/material";
+import {EmbedVideo} from "ngx-embed-video/dist";
 
 
 
@@ -76,7 +77,8 @@ const appRoutes: Routes = [
     ScrollToModule.forRoot(),
     MatVideoModule,
     MDBBootstrapModule.forRoot(),
-    MatTooltipModule
+    MatTooltipModule,
+    EmbedVideo.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

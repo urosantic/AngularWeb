@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {animate, style, transition, trigger} from "@angular/animations";
+import {EmbedVideoService} from "ngx-embed-video/dist";
+
 
 @Component({
   selector:'top-page',
@@ -21,4 +23,9 @@ export class TopPageComponent {
       let el = document.getElementById('contactFormAlex');
       el.scrollIntoView({behavior:'smooth'});
     }
+
+    youtubeUrl ='https://www.youtube.com/watch?v=pE4OrUytCCk';
+    youtubeID = 'pE4OrUytCCk';
+
+
 }

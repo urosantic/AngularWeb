@@ -8,19 +8,8 @@ import {TooltipPosition} from "@angular/material/tooltip";
 })
 
 export class SideMenuComponent {
-
-  scrollToElement: HTMLElement;
-
-  hover = false;
-
   scrollTopPage() {
     let el = document.getElementById('topPage1');
-    el.scrollIntoView({behavior:'smooth'});
-  }
-
-  scrollCase() {
-    // el.scrollIntoView({behavior:"smooth"}).findElement('#caseStudy');
-    let el = document.getElementById('caseStudyID');
     el.scrollIntoView({behavior:'smooth'});
   }
 
