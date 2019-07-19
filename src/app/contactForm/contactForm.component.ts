@@ -1,5 +1,6 @@
 import {Component, OnInit,} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+// import '../../assets/js/index';
+declare const myTest:any;
 
 @Component({
   selector: 'contact-form',
@@ -13,7 +14,6 @@ export class ContactFormComponent implements OnInit {
   email1: string;
   message: string;
 
-  // endpoint = '../../assets/js/sendemail.js';
 
   constructor() {}
 
@@ -22,15 +22,8 @@ export class ContactFormComponent implements OnInit {
   }
 
   onsubmit() {
-    // const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
-    // alert(allInfo);
-
-      // const data = {
-      //   toEmail: 'urosantic@hotmail.com',
-      //   toName: 'Jeff Delaney'
-      // }
-      //
-      // this.http.post(this.endpoint, data).subscribe()
+    alert('myTestCalled');
+     myTest();
     }
   }
 

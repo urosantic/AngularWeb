@@ -1,6 +1,5 @@
 <div>
-  <form (ngSubmit)="onsubmit()" #form1>
-
+  <form (ngSubmit)="onsubmit()">
     <div class="form-group">
       <input required minlength="3" maxlength="20" PATTERN="[A-Za-z]{3,20}" ngModel [(ngModel)]="name" name="FirstName" type="text" class="form-control" id="FirstName" #FirstName="ngModel" placeholder="Name"/>
       <div class="alert alert-danger" *ngIf="FirstName.touched && !FirstName.valid">Name is required</div>
@@ -14,6 +13,6 @@
     <div class="form-group">
       <input ngModel [(ngModel)]="message" name="message" required type="text" class="form-control" id="message" placeholder="Message (400 characters)">
     </div>
-    <button class="btn btn-primary">Submit</button>
+    <button (click)="onsubmit()" class="btn btn-primary">Submit</button>
   </form>
-</div>
+ </div>

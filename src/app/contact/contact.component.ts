@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector:'contact',
   templateUrl:'./contact.component.html',
@@ -9,3 +10,4 @@ import { Component } from '@angular/core';
 export class ContactComponent {
 
 }
+
