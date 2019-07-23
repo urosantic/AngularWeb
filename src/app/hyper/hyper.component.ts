@@ -31,7 +31,7 @@ export class HyperComponent {
     const componentPosition = this.el.nativeElement.offsetTop;
     const scrollPosition = window.pageYOffset;
 
-    if (scrollPosition + 200 >= componentPosition) {
+    if (scrollPosition + 300 >= componentPosition) {
       this.state = 'show';
     } else {
       this.state = 'hide';

@@ -4,7 +4,7 @@
   background-color: #005ADD;
   width: 100%;
   padding-top: 7%;
-  min-height:600px ;
+  min-height:600px;
 }
 
 .leftYeet {
@@ -64,6 +64,9 @@ p{
 @media (max-width: 767px) {
   .leftYeet {
     padding-top: 5%;
+    padding-right: 22px;
+    text-align: justify;
+    font-size: 12px;
   }
 
   #exploreWork {
@@ -84,10 +87,6 @@ p{
     height: 35px;
   }
 
-  p {
-    font-size: 1.2em;
-  }
-
   #yeetgraphics {
     width: 207px;
     height: auto;
@@ -96,5 +95,19 @@ p{
 
   h3 {
     margin-bottom: 29px;
+  }
+}
+
+@-moz-document url-prefix() {
+  @media (max-width: 767px) {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 12px;
   }
 }

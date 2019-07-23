@@ -108,3 +108,9 @@ p {
     width: 280px;
   }
 }
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 100%;
+  }
+}

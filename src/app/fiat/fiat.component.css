@@ -104,3 +104,9 @@ p {
     width: 200px;
   }
 }
+
+@media (max-width: 1024px) {
+  .container {
+    min-height: 400px;
+  }
+}

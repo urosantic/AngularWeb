@@ -85,6 +85,16 @@ h4 {
   letter-spacing: 0.1em;
 }
 
+@media (max-width: 991px) {
+  .sprint {
+    margin-bottom: 0;
+  }
+
+  #contactBox {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .container-fluid {
     min-height: 1200px;
@@ -108,7 +118,7 @@ h4 {
   }
 
   #gvLogo {
-    margin-left: 16px;
+    margin-left: 8%;
     height: 40px;
     width: 63px;
   }
@@ -118,6 +128,7 @@ h4 {
     font-weight: unset;
     letter-spacing: 2px;
     margin-bottom: 47px;
+    margin-left: 5%;
   }
 
   p{
@@ -142,6 +153,8 @@ h4 {
     padding-left: 22px;
     padding-top: 31px;
     padding-right: 22px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container {
@@ -159,3 +172,6 @@ h4 {
     font-weight: normal;
   }
 }
+
+
+

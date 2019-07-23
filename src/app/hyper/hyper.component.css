@@ -6,6 +6,7 @@
   min-width: 100%;
   padding-top: 10%;
   min-height: 500px;
+  max-height: 600px;
 }
 
 #hyperLogo {
@@ -63,6 +64,14 @@ h1 {
   max-width: 25%;
 }
 
+@media (max-width: 991px) {
+  .container {
+    max-height: 600px;
+    background-size: cover;
+  }
+}
+
+
 @media (max-width: 767px) {
   .mobileBlock {
     background-image: url("../../assets/hyper/hyp3r_bkgd_image1.jpg");
@@ -85,6 +94,7 @@ h1 {
     right: 0;
     margin-top: 50px;
     height: 40px;
+    top: 0;
   }
 
   #topLeftBox {
@@ -127,7 +137,8 @@ h1 {
   #txt {
     margin-bottom: 50px;
     font-size: 12px;
-    margin-right: 20px;
+    margin-right: 35px;
+    text-align: justify;
   }
 
 }

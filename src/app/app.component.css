@@ -23,3 +23,14 @@
   }
 }
 
+.ytp-chrome-top {
+  display: none;
+}
+
+
+.video-stream .html5-main-video {
+  width: 100%;
+  height: 1000px;
+  top: -100px;
+  left: 0;
+}
