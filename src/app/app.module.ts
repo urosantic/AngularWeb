@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { MatVideoModule } from 'mat-video';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
-
 import { AppComponent } from './app.component';
 import {SideMenuComponent} from "./sideMenu/sideMenu.component";
 import {TopPageComponent} from "./topPage/topPage.component";
@@ -66,7 +65,7 @@ const appRoutes: Routes = [
     WorkComponent,
     NavbarComponent,
     FooterComponent,
-    FortuneComponent
+    FortuneComponent,
   ],
   imports: [
     BrowserModule,

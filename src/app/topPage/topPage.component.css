@@ -4,6 +4,7 @@
   height: 85vh;
   min-height: 500px;
   padding: 0;
+  max-height: 700px;
 }
 
 .rightpanel {
@@ -13,6 +14,7 @@
   padding-top: 20vh;
   padding-right: 8%;
   background-color: #fff;
+  max-height: 700px;
 }
 
 .container {
