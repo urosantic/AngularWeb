@@ -52,6 +52,12 @@ p {
   font-size: 0.8em;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    min-height: 400px;
+  }
+}
+
 @media (max-width: 767px) {
   .fiatMobileBlock {
     background-image: url("../../assets/heros/image_work_fiatOPT.jpg");
@@ -106,8 +112,3 @@ p {
   }
 }
 
-@media (max-width: 1024px) {
-  .container {
-    min-height: 400px;
-  }
-}
