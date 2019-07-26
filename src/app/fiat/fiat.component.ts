@@ -39,7 +39,7 @@ export class FiatComponent {
     const componentPosition = this.el.nativeElement.offsetTop;
     const scrollPosition = window.pageYOffset;
 
-    if (scrollPosition +300 >= componentPosition) {
+    if (scrollPosition +400 >= componentPosition) {
       this.state = 'show';
     }
     else {

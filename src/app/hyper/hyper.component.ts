@@ -13,7 +13,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       })),
       state('hide', style({
         opacity: 0,
-        transform: 'translateX(-100%)'
+        transform: 'translateX(0)'
       })),
       transition('show => hide', animate('700ms ease-out')),
       transition( 'hide => show', animate('600ms 0.2s ease-in'))
@@ -31,7 +31,7 @@ export class HyperComponent {
     const componentPosition = this.el.nativeElement.offsetTop;
     const scrollPosition = window.pageYOffset;
 
-    if (scrollPosition + 300 >= componentPosition) {
+    if (scrollPosition + 400 >= componentPosition) {
       this.state = 'show';
     } else {
       this.state = 'hide';
