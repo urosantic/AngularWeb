@@ -39,9 +39,10 @@
 
 h1 {
   /*font-size: 1.3em;*/
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.1em;
   min-font-size: 30px;
+  font-size: 6vh;
 }
 
 .textPart {
