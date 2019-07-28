@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-declare const myTest: any;
 
 @Component({
   selector: 'app-root',
@@ -7,10 +6,5 @@ declare const myTest: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-
-  onClick() {
-    myTest();
-  }
 
 }

@@ -1,6 +1,5 @@
 import {Component, OnInit,} from '@angular/core';
-// import '../../assets/js/index';
-declare const myTest:any;
+declare const mailFunction:any;
 
 @Component({
   selector: 'contact-form',
@@ -23,7 +22,7 @@ export class ContactFormComponent implements OnInit {
 
   onsubmit() {
     alert('myTestCalled');
-     myTest();
+     new mailFunction();
     }
   }
 
