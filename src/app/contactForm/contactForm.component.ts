@@ -1,5 +1,6 @@
 import {Component, OnInit,} from '@angular/core';
-declare const mailFunction:any;
+import {HttpClient, HttpParams} from "@angular/common/http";
+import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'contact-form',
@@ -9,21 +10,36 @@ declare const mailFunction:any;
 
 export class ContactFormComponent implements OnInit {
 
+
+  constructor(private http: HttpClient) { }
+
   name: string;
-  email1: string;
   message: string;
-
-
-  constructor() {}
+  email1: string;
+  email:string;
 
   ngOnInit() {
 
   }
 
-  onsubmit() {
-    alert('myTestCalled');
-     new mailFunction();
-    }
+  onCreatePost() {
+    let parameters  = new HttpParams();
+    parameters = parameters.append('message', this.message);
+    parameters = parameters.append('name', this.name);
+    parameters = parameters.append('email',this.email);
+
+    console.log(parameters);
+
+    this.http
+      .post (
+      'https://us-central1-alexwebsite-fd702.cloudfunctions.net/sendEmail',null,{
+        params: parameters
+        }
+      )
+      .subscribe(responseData => {
+        console.log(responseData);
+      });
   }
+}
 
 

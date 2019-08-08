@@ -1,18 +1,18 @@
 <div>
-  <form (ngSubmit)="onsubmit()">
+  <form (ngSubmit)="onCreatePost()">
     <div class="form-group">
-      <input required minlength="3" maxlength="20" PATTERN="[A-Za-z]{3,20}" ngModel [(ngModel)]="name" name="FirstName" type="text" class="form-control" id="FirstName" #FirstName="ngModel" placeholder="Name"/>
+      <input type="text" required minlength="3" maxlength="20" PATTERN="[A-Za-z]{3,20}" ngModel [(ngModel)]="name" name="FirstName" class="form-control" id="FirstName" #FirstName="ngModel" placeholder="Name"/>
       <div class="alert alert-danger" *ngIf="FirstName.touched && !FirstName.valid">Name is required</div>
     </div>
 
     <div class="form-group">
-      <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email1" type="email" class="form-control" id="email1" [ngModel]="email1" #email="ngModel" placeholder="Email"/>
-      <div class="alert alert-danger" *ngIf="email.touched && !email.valid">Email not valid</div>
+      <input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" ngModel [(ngModel)]="email" name="email1" class="form-control" id="email1" #email1="ngModel"  placeholder="Email"/>
+      <div class="alert alert-danger" *ngIf="email1.touched && !email1.valid">Email is not valid</div>
     </div>
 
     <div class="form-group">
       <input ngModel [(ngModel)]="message" name="message" required type="text" class="form-control" id="message" placeholder="Message (400 characters)">
     </div>
-    <button (click)="onsubmit()" class="btn btn-primary">Submit</button>
+    <button class="btn btn-primary">Submit</button>
   </form>
  </div>

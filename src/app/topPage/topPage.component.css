@@ -1,10 +1,8 @@
 .leftpanel {
-  /*background-image: url("../../assets/heros/hero_image_hyper_original.jpg");*/
-  /*background-size: cover;*/
   height: 85vh;
   min-height: 500px;
   padding: 0;
-  max-height: 900px;
+  max-height: 700px;
 }
 
 .rightpanel {
@@ -14,7 +12,7 @@
   padding-top: 20vh;
   padding-right: 8%;
   background-color: #fff;
-  max-height: 900px;
+  max-height: 700px;
 }
 
 .container {
@@ -22,6 +20,7 @@
   min-height: 500px;
   width: 100%;
   min-width: 100%;
+  max-height: 700px;
 }
 
 #dirBtn {
@@ -59,20 +58,17 @@
 }
 
 #name{
-  color: #3462E0; font-size: 1.5em; letter-spacing: 0.14em; margin-bottom: 0;
-  font-family: 'Playfair Display', 'sans-serif';
-
+  color: #3462E0; font-size: 1.5em; margin-bottom: 0;line-height: 0.7;
 }
 
 #undername {
-  font-size: 1.5em; letter-spacing: 0.14em;
-  font-family: 'Playfair Display', 'sans-serif';
+  font-size: 1.5em;
 }
 
 #ace {
- font-size: 2.1em; letter-spacing: 0.05em;
-  font-family: 'Playfair Display', 'sans-serif';
+ font-size: 2.1em;
   font-weight: 900;
+  line-height: 1.2;
 }
 
 @media (max-width: 767px) {
@@ -82,6 +78,7 @@
     padding: 0;
     width: 100%;
     min-height: 580px;
+    max-height: unset;
   }
 
   #logo {
@@ -118,13 +115,13 @@
   }
 
   #name {
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 30px;
     margin-left: 24px;
     padding-right: 20px;
   }
   #undername {
-    font-size: 12px;
+    font-size: 22px;
     margin-bottom: 36px;
     margin-left: 24px;
     padding-right: 20px;
@@ -132,7 +129,7 @@
   }
 
   #ace1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 64px;
     margin-left: 24px;
     padding-right: 20px;

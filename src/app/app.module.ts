@@ -32,6 +32,7 @@ import {ScrollToModule} from "ng2-scroll-to-el";
 import {NavbarComponent} from "./navbar/navbar.component";
 import {FortuneComponent} from "./fortune/fortune.component";
 import {MatTooltipModule} from "@angular/material";
+import {HttpClientModule} from "@angular/common/http";
 
 
 
@@ -75,7 +76,8 @@ const appRoutes: Routes = [
     ScrollToModule.forRoot(),
     MatVideoModule,
     MDBBootstrapModule.forRoot(),
-    MatTooltipModule
+    MatTooltipModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
