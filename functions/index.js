@@ -18,19 +18,15 @@ const functions = require('firebase-functions');
     exports.sendEmail = functions.https.onRequest((req, res) => {
       cors(req, res, () => {
 
-        // getting dest email by query string
-        // const dest = req.query.dest;
-        // // const from = req.query.email;
         const message = req.query.message;
         const name = req.query.name;
         const email = req.query.email;
 
-
         const mailOptions = {
           from: email,
-          to: ' <urosantic8@gmail.com>',
-          subject: 'MarzoID Contact Form',
-          html: 'From: ' + email + 'Name of the sender: '+ name + " Message: " + message
+          to: ' <marzo.cs@gmail.com>',
+          subject: 'MarzoID Website Contact Form',
+          html: 'From: ' + email + '  Name of the sender: '+ name + " Message: " + message
              // email content in HTML
         };
         // returning result

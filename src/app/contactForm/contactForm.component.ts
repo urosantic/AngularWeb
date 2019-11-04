@@ -28,8 +28,6 @@ export class ContactFormComponent implements OnInit {
     parameters = parameters.append('name', this.name);
     parameters = parameters.append('email',this.email);
 
-    console.log(parameters);
-
     this.http
       .post (
       'https://us-central1-alexwebsite-fd702.cloudfunctions.net/sendEmail',null,{
@@ -41,5 +39,3 @@ export class ContactFormComponent implements OnInit {
       });
   }
 }
-
-
